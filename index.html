@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54985603f0.js" crossorigin="anonymous"></script>
+    <title>Music Player - UDUAK BEN TUTORIALS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <img src="images/music-image.jpg" alt="">
+
+            <div class="details">
+                <h1>Justin Bierber</h1>
+                <p>Anyone</p>
+            </div>
+            <audio controls id="music">
+                <source src="images/Justin-Bieber-Anyone-(TrendyBeatz.com).mp3" type="audio/mp3">
+            </audio>
+            <input type="range" value="0" id="range">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div><i class="fa-solid fa-play" id="control-btn" onclick="playPause()"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
